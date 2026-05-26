@@ -1,0 +1,12 @@
+.insurance-bg {
+  background: var(--color-11);
+}
+
+.insurance {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.insurance h2 {
+  grid-column: 1/-1;
+}
