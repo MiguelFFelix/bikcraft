@@ -1,9 +1,10 @@
 .container {
-  max-width: 1200px;
   box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px 20px;
 }
 
 .button {
@@ -59,4 +60,27 @@
 
 .link:hover {
   color: var(--color-0);
+}
+
+/* intern titles */
+.title-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--color-11);
+}
+
+.title p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .title-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .title p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
