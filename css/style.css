@@ -1,8 +1,9 @@
-@import "./global/header.css";
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
 
 @import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 /* Utilities */
 
