@@ -21,3 +21,6 @@
 
 /* Bikes-list */
 @import "./bikes/bikes-list.css";
+
+/* Bikes */
+@import "./bikes/bikes.css";

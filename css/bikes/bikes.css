@@ -1,0 +1,28 @@
+.bikes-bg {
+  background: var(--color-11);
+}
+
+.bikes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px 0px;
+}
+
+.bikes-image {
+  display: grid;
+}
+
+.bikes-image img {
+  grid-area: 1/1;
+}
+
+.bikes-image span {
+  display: inline-block;
+  place-self: start end;
+  background: var(--color-11);
+  color: var(--color-0);
+  padding: 8px 16px 8px 16px;
+  grid-area: 1/1;
+  border-radius: 4px;
+}

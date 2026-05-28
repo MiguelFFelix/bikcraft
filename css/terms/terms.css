@@ -8,6 +8,10 @@
   margin-bottom: 20px;
 }
 
+.terms p + h2 {
+  margin-top: 40px;
+}
+
 .terms p {
   max-width: 75ch;
   margin-bottom: 24px;
