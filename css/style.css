@@ -14,7 +14,11 @@
 @import "./home/technology.css";
 @import "./home/partners.css";
 @import "./home/testimony.css";
+
+/* Insurance */
 @import "./insurances/insurance.css";
+@import "./insurances/advantagens.css";
+@import "./insurances/questions.css";
 
 /* Terms */
 @import "./terms/terms.css";

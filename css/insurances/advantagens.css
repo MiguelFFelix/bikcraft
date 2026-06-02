@@ -1,0 +1,30 @@
+.advantagens-bg {
+  background: var(--color-12);
+}
+
+.advantagens {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantagens h2 {
+  margin-bottom: 60px;
+}
+
+.advantagens ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 80px;
+}
+
+.advantagens h3,
+.advantagens img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .advantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
