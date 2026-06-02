@@ -13,7 +13,7 @@
 
 .advantagens ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px), max-content);
   gap: 40px 80px;
 }
 
@@ -26,5 +26,13 @@
   .advantagens {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .advantagens h2 {
+    margin-bottom: 40px;
+  }
+
+  .advantagens ul {
+    gap: 20px;
   }
 }
