@@ -16,7 +16,7 @@
 @import "./home/testimony.css";
 
 /* Insurance */
-@import "./insurances/insurance.css";
+@import "./insurances/insurances.css";
 @import "./insurances/advantagens.css";
 @import "./insurances/questions.css";
 
@@ -29,5 +29,6 @@
 /* Bikes */
 @import "./bikes/bikes.css";
 
-/* Bike (Nimbus) */
+/* Bike */
 @import "./bike/bike.css";
+@import "./bike/insurance.css";
