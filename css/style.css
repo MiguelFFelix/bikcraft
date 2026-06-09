@@ -28,3 +28,6 @@
 
 /* Bikes */
 @import "./bikes/bikes.css";
+
+/* Bike (Nimbus) */
+@import "./bike/bike.css";
