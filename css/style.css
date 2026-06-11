@@ -23,6 +23,9 @@
 /* Terms */
 @import "./terms/terms.css";
 
+/* Terms */
+@import "./budget/budget.css";
+
 /* Contact */
 @import "./contact/contact.css";
 @import "./contact/stores.css";
